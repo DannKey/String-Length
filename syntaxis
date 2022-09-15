@@ -1,0 +1,14 @@
+function lenghts(arg1, arg2, arg3){
+    let arg1Length = arg1.length;
+    let arg2Length = arg2.length;
+    let arg3Length = arg3.length;
+
+    let sumLength = arg1Length + arg2Length + arg3Length;
+    let avglength = sumLength / 3;
+
+    console.log(sumLength);
+    console.log(Math.floor(avglength));
+    
+
+}
+lenghts('chocolate', 'ice cream', 'cake');
